@@ -1,2 +1,2 @@
-# cs412
-A group project for data mining (cs 412)
+# MAS
+依赖Taro为MAS开发的小程序
