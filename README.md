@@ -1,6 +1,8 @@
 # MAS
 This mini-program is developed based on the React framework. Then I use Taro to compile it into a mini-program native language. This Wechat mini-program mainly aims at advertising and providing user-guide for tourists who may visit and visit MaAnShan (MAS) HuanHe national tourist park.
 
+![image](http://github.com/sfwu/Auxiliary/MAS/Pic/samplePic.png)
+
 # About Taro
 
 Taro is a multi-end development solution that follows the React syntax specification. Nowadays, there are many kinds of frameworks existing in the market, such as H5, React-Native, WeChat applet, etc. One project may need to be used on different ends. Writing multiple sets of code for different ends is obviously costly. So it is extremely necessary to write one set of code which is able to be adapted to multi-ends.
