@@ -1,7 +1,7 @@
 # MAS
 This mini-program is developed based on the React framework. Then I use Taro to compile it into a mini-program native language. This Wechat mini-program mainly aims at advertising and providing user-guide for tourists who may visit and visit MaAnShan (MAS) HuanHe national tourist park.
 
-![The image cannot be displayed](https://github.com/sfwu/Auxiliary/blob/master/MAS/Pic/samplePic.png)
+<div align=center><img width="150" height="150" src="https://github.com/sfwu/Auxiliary/blob/master/MAS/Pic/samplePic.png)"/></div>
 
 # About Taro
 
