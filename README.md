@@ -1,5 +1,5 @@
 # MAS
-This mini-program is developed based on React framework. Then I use Taro to compile it into mini-program native language. This Wechat mini-program mainly aims on advertising and providing user-guide for tourist 
+This mini-program is developed based on the React framework. Then I use Taro to compile it into a mini-program native language. This Wechat mini-program mainly aims at advertising and providing user-guide for tourists who may visit and visit MaAnShan (MAS) HuanHe national tourist park.
 
 # About Taro
 
