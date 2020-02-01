@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/guideTickect/index",
+    "pages/guideView/index",
+    "pages/guideMap/index",
+    "pages/guideBus/index",
+    "pages/guideHotel/index",
+    "pages/guideFood/index",
+    "pages/guideShopping/index",
+    "pages/guideFun/index",
+    "pages/guideContact/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#b4282d",
+    "backgroundColor": "#fafafa",
+    "boarderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./assets/tabBar/home.png",
+        "selectedIconPath": "./assets/tabBar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "./assets/tabBar/user.png",
+        "selectedIconPath": "./assets/tabBar/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

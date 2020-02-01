@@ -1,0 +1,5 @@
+<block wx:if="{{$taroCompReady}}">
+    <view><text class="title">景区风采</text>
+        <head-swiper compid="{{$compid__39}}"></head-swiper>
+    </view>
+</block>

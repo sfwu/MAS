@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "head": "../../components/head/head",
+    "at-noticebar": "../../npm/taro-ui/dist/weapp/components/noticebar/index",
+    "guide": "../../components/guide/index"
+  },
+  "navigationBarTitleText": "首页",
+  "backgroundColor": "#fafafa"
+}

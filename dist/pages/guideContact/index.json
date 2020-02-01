@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "at-divider": "../../npm/taro-ui/dist/weapp/components/divider/index"
+  }
+}

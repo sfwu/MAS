@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "at-divider": "../../npm/taro-ui/dist/weapp/components/divider/index",
+    "at-tabs": "../../npm/taro-ui/dist/weapp/components/tabs/index",
+    "at-tabs-pane": "../../npm/taro-ui/dist/weapp/components/tabs-pane/index",
+    "at-timeline": "../../npm/taro-ui/dist/weapp/components/timeline/index"
+  },
+  "navigationBarTitleText": "游览指导"
+}
