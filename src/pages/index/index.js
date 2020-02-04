@@ -32,7 +32,7 @@ export default class Index extends Component {
           marquee
           showMore
           icon='volume-plus'
-          speed = '50'>
+          speed = {50}>
             马鞍山洹河峡谷风景区现已开业！欢迎各位莅临游览!
           </AtNoticebar>
         </View>
