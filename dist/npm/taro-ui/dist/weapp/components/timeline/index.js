@@ -50,7 +50,7 @@ var AtTimeline = (_temp2 = _class = function (_AtComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AtTimeline.__proto__ || Object.getPrototypeOf(AtTimeline)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp7", "anonymousState__temp8", "loopArray3", "items", "pending", "customStyle", "className"], _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AtTimeline.__proto__ || Object.getPrototypeOf(AtTimeline)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp5", "anonymousState__temp6", "loopArray4", "items", "pending", "customStyle", "className"], _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(AtTimeline, [{
@@ -82,9 +82,9 @@ var AtTimeline = (_temp2 = _class = function (_AtComponent) {
         'at-timeline--pending': pending
       };
 
-      var anonymousState__temp7 = (0, _index6.default)(rootClassName, rootClassObject, this.__props.className);
-      var anonymousState__temp8 = (0, _index3.internal_inline_style)(customStyle);
-      var loopArray3 = items.map(function (item, index) {
+      var anonymousState__temp5 = (0, _index6.default)(rootClassName, rootClassObject, this.__props.className);
+      var anonymousState__temp6 = (0, _index3.internal_inline_style)(customStyle);
+      var loopArray4 = items.map(function (item, index) {
         item = {
           $original: (0, _index3.internal_get_original)(item)
         };
@@ -113,8 +113,7 @@ var AtTimeline = (_temp2 = _class = function (_AtComponent) {
         }
 
         var $loopState__temp2 = (0, _index6.default)(itemRootClassName);
-        var $loopState__temp4 = "at-timeline-item-" + index;
-        var $loopState__temp6 = (0, _index6.default)(dotClass);
+        var $loopState__temp4 = (0, _index6.default)(dotClass);
         return {
           color: color,
           icon: icon,
@@ -125,14 +124,13 @@ var AtTimeline = (_temp2 = _class = function (_AtComponent) {
           dotClass: dotClass,
           $loopState__temp2: $loopState__temp2,
           $loopState__temp4: $loopState__temp4,
-          $loopState__temp6: $loopState__temp6,
           $original: item.$original
         };
       });
       Object.assign(this.__state, {
-        anonymousState__temp7: anonymousState__temp7,
-        anonymousState__temp8: anonymousState__temp8,
-        loopArray3: loopArray3,
+        anonymousState__temp5: anonymousState__temp5,
+        anonymousState__temp6: anonymousState__temp6,
+        loopArray4: loopArray4,
         items: items
       });
       return this.__state;
@@ -140,7 +138,7 @@ var AtTimeline = (_temp2 = _class = function (_AtComponent) {
   }]);
 
   return AtTimeline;
-}(_component2.default), _class.$$events = [], _class.$$componentPath = "Users/Wusongfeng/Desktop/Mas1/node_modules/taro-ui/dist/weapp/components/timeline/index", _temp2);
+}(_component2.default), _class.$$events = [], _class.$$componentPath = "Users/songfengwu/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/timeline/index", _temp2);
 
 
 AtTimeline.defaultProps = {

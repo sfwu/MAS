@@ -89,7 +89,7 @@ var Guide = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Guide.__proto__ || Object.getPrototypeOf(Guide)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray1", "GUIDE_LIST"], _this.gotoPage = function (menu) {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Guide.__proto__ || Object.getPrototypeOf(Guide)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray2", "GUIDE_LIST"], _this.gotoPage = function (menu) {
       _index2.default.navigateTo({ url: menu.url });
     }, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
@@ -109,7 +109,7 @@ var Guide = (_temp2 = _class = function (_Taro$Component) {
       var __isRunloopRef = arguments[2];
       var __prefix = this.$prefix;
       ;
-      var loopArray1 = GUIDE_LIST.map(function (menu, index) {
+      var loopArray2 = GUIDE_LIST.map(function (menu, index) {
         menu = {
           $original: (0, _index.internal_get_original)(menu)
         };
@@ -125,7 +125,7 @@ var Guide = (_temp2 = _class = function (_Taro$Component) {
         };
       });
       Object.assign(this.__state, {
-        loopArray1: loopArray1,
+        loopArray2: loopArray2,
         GUIDE_LIST: GUIDE_LIST
       });
       return this.__state;

@@ -15,45 +15,45 @@
                 </view>
             </view>
         </view>
-        <at-divider compid="{{$compid__24}}"></at-divider>
-        <at-tabs compid="{{$compid__25}}">
-            <at-tabs-pane compid="{{$compid__26}}">
+        <at-divider compid="{{$compid__4}}"></at-divider>
+        <at-tabs compid="{{$compid__5}}">
+            <at-tabs-pane compid="{{$compid__6}}">
                 <view style="font-size:18px;text-align:center;height:200px;" class="timeline">
-                    <at-timeline compid="{{$compid__27}}"></at-timeline>
+                    <at-timeline compid="{{$compid__7}}"></at-timeline>
                 </view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__28}}">
+            <at-tabs-pane compid="{{$compid__8}}">
                 <view style="font-size:18px;text-align:center;height:200px;" class="timeline">
-                    <at-timeline compid="{{$compid__29}}"></at-timeline>
+                    <at-timeline compid="{{$compid__9}}"></at-timeline>
                 </view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__30}}">
+            <at-tabs-pane compid="{{$compid__10}}">
                 <view style="font-size:18px;text-align:center;height:200px;" class="timeline">
                     <view class="at-row">
                         <view class="at-col">
-                            <at-timeline compid="{{$compid__31}}"></at-timeline>
+                            <at-timeline compid="{{$compid__11}}"></at-timeline>
                         </view>
                         <view class="at-col">
-                            <at-timeline compid="{{$compid__32}}"></at-timeline>
+                            <at-timeline compid="{{$compid__12}}"></at-timeline>
                         </view>
                     </view>
                 </view>
             </at-tabs-pane>
-            <at-tabs-pane compid="{{$compid__33}}">
+            <at-tabs-pane compid="{{$compid__13}}">
                 <view style="font-size:18px;text-align:center;height:200px;" class="timeline1">
                     <view class="at-row">
                         <view class="at-col">
-                            <at-timeline compid="{{$compid__34}}"></at-timeline>
+                            <at-timeline compid="{{$compid__14}}"></at-timeline>
                         </view>
                         <view class="at-col">
-                            <at-timeline compid="{{$compid__35}}"></at-timeline>
+                            <at-timeline compid="{{$compid__15}}"></at-timeline>
                         </view>
                     </view>
                 </view>
             </at-tabs-pane>
         </at-tabs>
         <view>
-            <at-divider compid="{{$compid__36}}"></at-divider>
+            <at-divider compid="{{$compid__16}}"></at-divider>
             <image class="map" mode="widthFix" src="{{item}}" bindtap="onImageClick" wx:for="{{URL_LIST}}" wx:for-item="item" wx:for-index="_anonIdx2" data-e-tap-so="this" data-e-tap-a-a="{{URL_LIST}}"></image>
         </view>
     </view>

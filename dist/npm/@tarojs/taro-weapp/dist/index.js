@@ -3273,7 +3273,7 @@ function createApp(AppClass) {
 }
 
 var RequestQueue = {
-  MAX_REQUEST: 5,
+  MAX_REQUEST: 10,
   queue: [],
   pendingQueue: [],
   request: function request(options) {
@@ -3493,6 +3493,14 @@ function processApis(taro$$1) {
           p.progress = function (cb) {
             if (task) {
               task.onProgressUpdate(cb);
+            }
+
+            return p;
+          };
+
+          p.headersReceived = function (cb) {
+            if (task) {
+              task.onHeadersReceived(cb);
             }
 
             return p;

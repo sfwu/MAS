@@ -56,7 +56,7 @@ var AtTabs = (_temp2 = _class = function (_AtComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AtTabs.__proto__ || Object.getPrototypeOf(AtTabs)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "loopArray2", "tabList", "rootCls", "scroll", "_tabId", "scrollX", "scrollY", "_scrollLeft", "_scrollTop", "_scrollIntoView", "swipeable", "tabDirection", "current", "customStyle", "className", "height", "animated", "children"], _this.updateState = function (idx) {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AtTabs.__proto__ || Object.getPrototypeOf(AtTabs)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "anonymousState__temp4", "loopArray3", "tabList", "rootCls", "scroll", "_tabId", "scrollX", "scrollY", "_scrollLeft", "_scrollTop", "_scrollIntoView", "swipeable", "tabDirection", "current", "customStyle", "className", "height", "animated", "children"], _this.updateState = function (idx) {
       if (_this.props.scroll) {
         // 标签栏滚动
         switch (ENV) {
@@ -256,7 +256,7 @@ var AtTabs = (_temp2 = _class = function (_AtComponent) {
       var anonymousState__temp2 = scroll ? (0, _index2.internal_inline_style)(heightStyle) : null;
       var anonymousState__temp3 = (0, _index2.internal_inline_style)(this.mergeStyle(bodyStyle, heightStyle));
       var anonymousState__temp4 = (0, _index2.internal_inline_style)(underlineStyle);
-      var loopArray2 = tabList.map(function (item, idx) {
+      var loopArray3 = tabList.map(function (item, idx) {
         item = {
           $original: (0, _index2.internal_get_original)(item)
         };
@@ -276,7 +276,7 @@ var AtTabs = (_temp2 = _class = function (_AtComponent) {
         anonymousState__temp2: anonymousState__temp2,
         anonymousState__temp3: anonymousState__temp3,
         anonymousState__temp4: anonymousState__temp4,
-        loopArray2: loopArray2,
+        loopArray3: loopArray3,
         tabList: tabList,
         rootCls: rootCls,
         scroll: scroll,
@@ -289,7 +289,7 @@ var AtTabs = (_temp2 = _class = function (_AtComponent) {
   }]);
 
   return AtTabs;
-}(_component2.default), _class.$$events = ["handleClick", "handleTouchStart", "handleTouchEnd", "handleTouchMove"], _class.$$componentPath = "Users/Wusongfeng/Desktop/Mas1/node_modules/taro-ui/dist/weapp/components/tabs/index", _temp2);
+}(_component2.default), _class.$$events = ["handleClick", "handleTouchStart", "handleTouchEnd", "handleTouchMove"], _class.$$componentPath = "Users/songfengwu/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/tabs/index", _temp2);
 
 
 AtTabs.defaultProps = {

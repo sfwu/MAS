@@ -1,7 +1,7 @@
 {
-	"projectname": "Mas1",
+	"projectname": "dist",
 	"description": "",
-	"appid": "touristappid",
+	"appid": "wx3f309b71da172746",
 	"setting": {
 		"urlCheck": true,
 		"es6": false,

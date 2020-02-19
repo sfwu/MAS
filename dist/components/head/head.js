@@ -38,7 +38,7 @@ var Head = (_temp2 = _class = function (_BaseComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Head.__proto__ || Object.getPrototypeOf(Head)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["$compid__39", "banner"], _this.customComponents = ["HeadSwiper"], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Head.__proto__ || Object.getPrototypeOf(Head)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["$compid__19", "banner"], _this.customComponents = ["HeadSwiper"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(Head, [{
@@ -57,18 +57,18 @@ var Head = (_temp2 = _class = function (_BaseComponent) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _index.genCompid)(__prefix + "$compid__39"),
+      var _genCompid = (0, _index.genCompid)(__prefix + "$compid__19"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__39 = _genCompid2[0],
-          $compid__39 = _genCompid2[1];
+          $prevCompid__19 = _genCompid2[0],
+          $compid__19 = _genCompid2[1];
 
       var banner = this.__props.banner;
 
       _index.propsManager.set({
         "banner": banner
-      }, $compid__39, $prevCompid__39);
+      }, $compid__19, $prevCompid__19);
       Object.assign(this.__state, {
-        $compid__39: $compid__39
+        $compid__19: $compid__19
       });
       return this.__state;
     }

@@ -84,7 +84,7 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
         "marquee": true,
         "showMore": true,
         "icon": "volume-plus",
-        "speed": "50"
+        "speed": 50
       }, $compid__0, $prevCompid__0);
       Object.assign(this.__state, {
         $compid__0: $compid__0
