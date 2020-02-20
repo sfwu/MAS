@@ -42,7 +42,6 @@ export default class HeadSwiper extends Component {
                 <SwiperItem
                   key={item.key}
                   className='home-banner__swiper-item'
-                  //onClick={this.previewImage.bind(this, item)}
                 >
                   <Image
                     className='home-banner__swiper-item-img'
