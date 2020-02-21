@@ -56,7 +56,7 @@ var AtAccordion = (_temp2 = _class = function (_AtComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AtAccordion.__proto__ || Object.getPrototypeOf(AtAccordion)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "rootCls", "headerCls", "icon", "iconCls", "arrowCls", "contentCls", "title", "wrapperHeight", "open", "isAnimation", "customStyle", "className", "hasBorder", "children"], _this.handleClick = function (event) {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = AtAccordion.__proto__ || Object.getPrototypeOf(AtAccordion)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["anonymousState__temp", "anonymousState__temp2", "anonymousState__temp3", "rootCls", "headerCls", "icon", "iconCls", "arrowCls", "contentCls", "title", "note", "wrapperHeight", "open", "isAnimation", "customStyle", "className", "hasBorder", "children"], _this.handleClick = function (event) {
       var open = _this.props.open;
 
       if (!_this.isCompleted) {
@@ -134,7 +134,8 @@ var AtAccordion = (_temp2 = _class = function (_AtComponent) {
           title = _props2.title,
           icon = _props2.icon,
           hasBorder = _props2.hasBorder,
-          open = _props2.open;
+          open = _props2.open,
+          note = _props2.note;
       var wrapperHeight = this.__state.wrapperHeight;
 
 
@@ -173,14 +174,15 @@ var AtAccordion = (_temp2 = _class = function (_AtComponent) {
         iconCls: iconCls,
         arrowCls: arrowCls,
         contentCls: contentCls,
-        title: title
+        title: title,
+        note: note
       });
       return this.__state;
     }
   }]);
 
   return AtAccordion;
-}(_component2.default), _class.$$events = ["handleClick"], _class.$$componentPath = "Users/songfengwu/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/accordion/index", _temp2);
+}(_component2.default), _class.$$events = ["handleClick"], _class.$$componentPath = "Users/Wusongfeng/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/accordion/index", _temp2);
 
 
 AtAccordion.defaultProps = {
@@ -188,6 +190,7 @@ AtAccordion.defaultProps = {
   customStyle: '',
   className: '',
   title: '',
+  note: '',
   icon: {},
   hasBorder: true,
   isAnimation: true,
@@ -200,6 +203,7 @@ AtAccordion.propTypes = {
   open: _index4.default.bool,
   isAnimation: _index4.default.bool,
   title: _index4.default.string,
+  note: _index4.default.string,
   icon: _index4.default.object,
   hasBorder: _index4.default.bool,
   onClick: _index4.default.func

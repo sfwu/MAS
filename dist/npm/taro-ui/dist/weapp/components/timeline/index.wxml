@@ -1,8 +1,8 @@
 <block wx:if="{{$taroCompReady}}">
-    <view class="{{anonymousState__temp5}}" style="{{anonymousState__temp6}}">
-        <view class="{{item.$loopState__temp2}}" wx:key="index" wx:for="{{loopArray4}}" wx:for-item="item" wx:for-index="index">
+    <view class="{{anonymousState__temp7}}" style="{{anonymousState__temp8}}">
+        <view class="{{item.$loopState__temp2}}" wx:key="$loopState__temp4" wx:for="{{loopArray4}}" wx:for-item="item" wx:for-index="index">
             <view class="at-timeline-item__tail"></view>
-            <view class="{{item.$loopState__temp4}}">
+            <view class="{{item.$loopState__temp6}}">
                 <block wx:if="{{item.icon}}"><text class="{{item.iconClass}}"></text>
                 </block>
             </view>

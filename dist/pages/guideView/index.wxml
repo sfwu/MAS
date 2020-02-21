@@ -14,6 +14,7 @@
         </view>
         <view>
             <at-accordion wx:key="key" wx:for="{{loopArray0}}" wx:for-item="item" wx:for-index="_anonIdx2" compid="{{item.$compid__1}}">
+                <image src="{{item.$original.url}}" class="at-article__img" mode="widthFix"></image>
                 <view class="at-article__p">{{item.$original.text}}</view>
             </at-accordion>
         </view>

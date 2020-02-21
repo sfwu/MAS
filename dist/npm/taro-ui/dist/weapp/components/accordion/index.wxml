@@ -3,7 +3,10 @@
         <view class="{{headerCls}}" bindtap="handleClick">
             <block wx:if="{{icon && icon.value}}"><text class="{{iconCls}}" style="{{anonymousState__temp2}}"></text>
             </block>
-            <view class="at-accordion__title">{{title}}</view>
+            <view class="at-accordion__info">
+                <view class="at-accordion__info__title">{{title}}</view>
+                <view class="at-accordion__info__note">{{note}}</view>
+            </view>
             <view class="{{arrowCls}}"><text class="at-icon at-icon-chevron-down"></text>
             </view>
         </view>

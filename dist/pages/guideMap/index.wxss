@@ -1552,6 +1552,14 @@
 /**
  * 默认主题下 $color-border-light
  */
+.at-web-button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
 .at-button {
   position: relative;
   display: -webkit-box;
