@@ -40,7 +40,7 @@ var GuideView = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GuideView.__proto__ || Object.getPrototypeOf(GuideView)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray0", "$compid__2", "$compid__3", "description", "open0", "open1", "open2", "open3", "open4", "open5", "open6", "open7", "open8", "open9", "open10", "open11", "open12", "open13", "open14", "open15", "open16", "open17", "open18", "open19", "open20"], _this.config = {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GuideView.__proto__ || Object.getPrototypeOf(GuideView)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray6", "$compid__22", "$compid__23", "description", "open0", "open1", "open2", "open3", "open4", "open5", "open6", "open7", "open8", "open9", "open10", "open11", "open12", "open13", "open14", "open15", "open16", "open17", "open18", "open19", "open20"], _this.config = {
       navigationBarTitleText: '景点介绍'
     }, _this.customComponents = ["AtAccordion", "AtDivider"], _temp), _possibleConstructorReturn(_this, _ret);
   }
@@ -141,54 +141,54 @@ var GuideView = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _index.genCompid)(__prefix + "$compid__2"),
+      var _genCompid = (0, _index.genCompid)(__prefix + "$compid__22"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__2 = _genCompid2[0],
-          $compid__2 = _genCompid2[1];
+          $prevCompid__22 = _genCompid2[0],
+          $compid__22 = _genCompid2[1];
 
-      var _genCompid3 = (0, _index.genCompid)(__prefix + "$compid__3"),
+      var _genCompid3 = (0, _index.genCompid)(__prefix + "$compid__23"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__3 = _genCompid4[0],
-          $compid__3 = _genCompid4[1];
+          $prevCompid__23 = _genCompid4[0],
+          $compid__23 = _genCompid4[1];
 
       var description = this.__props.description;
 
 
-      var loopArray0 = description.map(function (item, _anonIdx) {
+      var loopArray6 = description.map(function (item, _anonIdx) {
         item = {
           $original: (0, _index.internal_get_original)(item)
         };
 
         var $loopState__temp2 = _this2.__state["open" + String(item.$original.key)];
 
-        var _genCompid5 = (0, _index.genCompid)(__prefix + "azzzzzzzzz" + _anonIdx, true),
+        var _genCompid5 = (0, _index.genCompid)(__prefix + "bzzzzzzzzz" + _anonIdx, true),
             _genCompid6 = _slicedToArray(_genCompid5, 2),
-            $prevCompid__1 = _genCompid6[0],
-            $compid__1 = _genCompid6[1];
+            $prevCompid__21 = _genCompid6[0],
+            $compid__21 = _genCompid6[1];
 
         _index.propsManager.set({
           "open": $loopState__temp2,
           "onClick": _this2.handleClick.bind(_this2, item.$original.key, _this2.__state["open" + String(item.$original.key)]),
           "title": item.$original.title
-        }, $compid__1, $prevCompid__1);
+        }, $compid__21, $prevCompid__21);
         return {
           $loopState__temp2: $loopState__temp2,
-          $compid__1: $compid__1,
+          $compid__21: $compid__21,
           $original: item.$original
         };
       });
       _index.propsManager.set({
         "title": "\u666F\u70B9\u4ECB\u7ECD"
-      }, $compid__2, $prevCompid__2);
+      }, $compid__22, $prevCompid__22);
       _index.propsManager.set({
         "content": "\u6B22\u8FCE\u60A8\u524D\u6765\u6E38\u89C8\uFF01",
         "fontColor": "#E3CE33",
         "lineColor": "#B3E333"
-      }, $compid__3, $prevCompid__3);
+      }, $compid__23, $prevCompid__23);
       Object.assign(this.__state, {
-        loopArray0: loopArray0,
-        $compid__2: $compid__2,
-        $compid__3: $compid__3,
+        loopArray6: loopArray6,
+        $compid__22: $compid__22,
+        $compid__23: $compid__23,
         description: description
       });
       return this.__state;

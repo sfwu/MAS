@@ -227,7 +227,7 @@ var AtNoticebar = (_temp2 = _class = function (_AtComponent) {
   }]);
 
   return AtNoticebar;
-}(_component2.default), _class.$$events = ["onClose", "onGotoMore"], _class.$$componentPath = "Users/Wusongfeng/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/noticebar/index", _temp2);
+}(_component2.default), _class.$$events = ["onClose", "onGotoMore"], _class.$$componentPath = "Users/songfengwu/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/noticebar/index", _temp2);
 
 
 AtNoticebar.defaultProps = {

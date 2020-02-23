@@ -38,7 +38,7 @@ var guideContact = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = guideContact.__proto__ || Object.getPrototypeOf(guideContact)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["$compid__17", "$compid__18"], _this.customComponents = ["AtDivider"], _temp), _possibleConstructorReturn(_this, _ret);
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = guideContact.__proto__ || Object.getPrototypeOf(guideContact)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["$compid__37", "$compid__38"], _this.customComponents = ["AtDivider"], _temp), _possibleConstructorReturn(_this, _ret);
   }
 
   _createClass(guideContact, [{
@@ -57,27 +57,27 @@ var guideContact = (_temp2 = _class = function (_Taro$Component) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _index.genCompid)(__prefix + "$compid__17"),
+      var _genCompid = (0, _index.genCompid)(__prefix + "$compid__37"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__17 = _genCompid2[0],
-          $compid__17 = _genCompid2[1];
+          $prevCompid__37 = _genCompid2[0],
+          $compid__37 = _genCompid2[1];
 
-      var _genCompid3 = (0, _index.genCompid)(__prefix + "$compid__18"),
+      var _genCompid3 = (0, _index.genCompid)(__prefix + "$compid__38"),
           _genCompid4 = _slicedToArray(_genCompid3, 2),
-          $prevCompid__18 = _genCompid4[0],
-          $compid__18 = _genCompid4[1];
+          $prevCompid__38 = _genCompid4[0],
+          $compid__38 = _genCompid4[1];
 
       _index.propsManager.set({
         "title": "\u666F\u70B9\u4ECB\u7ECD"
-      }, $compid__17, $prevCompid__17);
+      }, $compid__37, $prevCompid__37);
       _index.propsManager.set({
         "content": "",
         "fontColor": "#ff9900",
         "lineColor": "#ff9900"
-      }, $compid__18, $prevCompid__18);
+      }, $compid__38, $prevCompid__38);
       Object.assign(this.__state, {
-        $compid__17: $compid__17,
-        $compid__18: $compid__18
+        $compid__37: $compid__37,
+        $compid__38: $compid__38
       });
       return this.__state;
     }

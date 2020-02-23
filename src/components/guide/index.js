@@ -14,14 +14,14 @@ const GUIDE_LIST = [{
     url: '/pages/guideView/index',
     img: require('../../assets/gridIcon/view.png')
 }, {
-    key: 'map',
+    key: 'fun',
     text: '游览指导',
     url: '/pages/guideMap/index',
     img: require('../../assets/gridIcon/map.png')
 }, {
-    key: 'fun',
-    text: '娱乐',
-    url: '/pages/guideFun/index',
+    key: 'video',
+    text: '风景视频',
+    url: '/pages/guideVideo/index',
     img: require('../../assets/gridIcon/fun.png')
 }, {
     key: 'bus',

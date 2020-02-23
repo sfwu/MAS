@@ -1,6 +1,6 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="page">
-        <docs-header compid="{{$compid__2}}"></docs-header>
+        <docs-header compid="{{$compid__22}}"></docs-header>
         <view class="doc-body">
             <view class="panel">
                 <view class="panel__title"></view>
@@ -13,11 +13,11 @@
             </view>
         </view>
         <view>
-            <at-accordion wx:key="key" wx:for="{{loopArray0}}" wx:for-item="item" wx:for-index="_anonIdx2" compid="{{item.$compid__1}}">
+            <at-accordion wx:key="key" wx:for="{{loopArray6}}" wx:for-item="item" wx:for-index="_anonIdx2" compid="{{item.$compid__21}}">
                 <image src="{{item.$original.url}}" class="at-article__img" mode="widthFix"></image>
                 <view class="at-article__p">{{item.$original.text}}</view>
             </at-accordion>
         </view>
-        <at-divider compid="{{$compid__3}}"></at-divider>
+        <at-divider compid="{{$compid__23}}"></at-divider>
     </view>
 </block>

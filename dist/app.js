@@ -39,7 +39,7 @@ var _App = function (_BaseComponent) {
     }
 
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = _App.__proto__ || Object.getPrototypeOf(_App)).call.apply(_ref, [this].concat(args))), _this), _this.config = {
-      pages: ['pages/index/index', 'pages/user/user', 'pages/guideTickect/index', 'pages/guideView/index', 'pages/guideMap/index', 'pages/guideBus/index', 'pages/guideHotel/index', 'pages/guideFood/index', 'pages/guideShopping/index', 'pages/guideFun/index', 'pages/guideContact/index'],
+      pages: ['pages/index/index', 'pages/user/user', 'pages/guideTickect/index', 'pages/guideView/index', 'pages/guideMap/index', 'pages/guideBus/index', 'pages/guideHotel/index', 'pages/guideFood/index', 'pages/guideShopping/index', 'pages/guideVideo/index', 'pages/guideContact/index'],
       window: {
         backgroundTextStyle: 'light',
         navigationBarBackgroundColor: '#fff',

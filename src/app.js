@@ -22,7 +22,7 @@ class App extends Component {
       'pages/guideHotel/index',
       'pages/guideFood/index',
       'pages/guideShopping/index',
-      'pages/guideFun/index',
+      'pages/guideVideo/index',
       'pages/guideContact/index',
     ],
     window: {

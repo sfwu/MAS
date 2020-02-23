@@ -9,7 +9,7 @@
     "pages/guideHotel/index",
     "pages/guideFood/index",
     "pages/guideShopping/index",
-    "pages/guideFun/index",
+    "pages/guideVideo/index",
     "pages/guideContact/index"
   ],
   "window": {
@@ -37,6 +37,5 @@
         "text": "我的"
       }
     ]
-  },
-  "sitemapLocation": "sitemap.json"
+  }
 }
