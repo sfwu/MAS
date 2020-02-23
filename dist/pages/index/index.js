@@ -38,7 +38,7 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["$compid__20"], _this.config = {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Index.__proto__ || Object.getPrototypeOf(Index)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["$compid__0"], _this.config = {
       navigationBarTitleText: '首页',
       backgroundColor: '#fafafa'
     }, _this.customComponents = ["Head", "AtNoticebar", "Guide"], _temp), _possibleConstructorReturn(_this, _ret);
@@ -75,19 +75,19 @@ var Index = (_temp2 = _class = function (_BaseComponent) {
       var __prefix = this.$prefix;
       ;
 
-      var _genCompid = (0, _index.genCompid)(__prefix + "$compid__20"),
+      var _genCompid = (0, _index.genCompid)(__prefix + "$compid__0"),
           _genCompid2 = _slicedToArray(_genCompid, 2),
-          $prevCompid__20 = _genCompid2[0],
-          $compid__20 = _genCompid2[1];
+          $prevCompid__0 = _genCompid2[0],
+          $compid__0 = _genCompid2[1];
 
       _index.propsManager.set({
         "marquee": true,
         "showMore": true,
         "icon": "volume-plus",
         "speed": 50
-      }, $compid__20, $prevCompid__20);
+      }, $compid__0, $prevCompid__0);
       Object.assign(this.__state, {
-        $compid__20: $compid__20
+        $compid__0: $compid__0
       });
       return this.__state;
     }

@@ -29,47 +29,47 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var GUIDE_LIST = [{
   key: 'tickect',
   text: '门票',
-  url: '/pages/guideTickect/index',
+  url: '/pages/frontPageMenu/guideTickect/index',
   img: "/assets/gridIcon/ticket_2.png"
 }, {
   key: 'view',
   text: '景点介绍',
-  url: '/pages/guideView/index',
+  url: '/pages/frontPageMenu/guideView/index',
   img: "/assets/gridIcon/view.png"
 }, {
   key: 'fun',
   text: '游览指导',
-  url: '/pages/guideMap/index',
+  url: '/pages/frontPageMenu/guideMap/index',
   img: "/assets/gridIcon/map.png"
 }, {
   key: 'video',
   text: '风景视频',
-  url: '/pages/guideVideo/index',
+  url: '/pages/frontPageMenu/guideVideo/index',
   img: "/assets/gridIcon/fun.png"
 }, {
   key: 'bus',
   text: '交通',
-  url: '/pages/guideBus/index',
+  url: '/pages/frontPageMenu/guideBus/index',
   img: "/assets/gridIcon/bus.png"
 }, {
   key: 'hotel',
   text: '住宿',
-  url: '/pages/guideHotel/index',
+  url: '/pages/frontPageMenu/guideHotel/index',
   img: "/assets/gridIcon/hotel.png"
 }, {
   key: 'food',
   text: '美食',
-  url: '/pages/guideFood/index',
+  url: '/pages/frontPageMenu/guideFood/index',
   img: "/assets/gridIcon/food_1.png"
 }, {
   key: 'shopping',
   text: '购物',
-  url: '/pages/guideShopping/index',
+  url: '/pages/frontPageMenu/guideShopping/index',
   img: "/assets/gridIcon/shopping.png"
 }, {
   key: 'contact',
   text: '联系我们',
-  url: '/pages/guideContact/index',
+  url: '/pages/frontPageMenu/guideContact/index',
   img: "/assets/gridIcon/contactus.png"
 }];
 
@@ -89,7 +89,7 @@ var Guide = (_temp2 = _class = function (_Taro$Component) {
       args[_key] = arguments[_key];
     }
 
-    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Guide.__proto__ || Object.getPrototypeOf(Guide)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray16", "GUIDE_LIST"], _this.gotoPage = function (menu) {
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Guide.__proto__ || Object.getPrototypeOf(Guide)).call.apply(_ref, [this].concat(args))), _this), _this.$usedState = ["loopArray2", "GUIDE_LIST"], _this.gotoPage = function (menu) {
       _index2.default.navigateTo({ url: menu.url });
     }, _this.customComponents = [], _temp), _possibleConstructorReturn(_this, _ret);
   }
@@ -109,7 +109,7 @@ var Guide = (_temp2 = _class = function (_Taro$Component) {
       var __isRunloopRef = arguments[2];
       var __prefix = this.$prefix;
       ;
-      var loopArray16 = GUIDE_LIST.map(function (menu, index) {
+      var loopArray2 = GUIDE_LIST.map(function (menu, index) {
         menu = {
           $original: (0, _index.internal_get_original)(menu)
         };
@@ -125,7 +125,7 @@ var Guide = (_temp2 = _class = function (_Taro$Component) {
         };
       });
       Object.assign(this.__state, {
-        loopArray16: loopArray16,
+        loopArray2: loopArray2,
         GUIDE_LIST: GUIDE_LIST
       });
       return this.__state;

@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "at-accordion": "../../npm/taro-ui/dist/weapp/components/accordion/index",
-    "at-divider": "../../npm/taro-ui/dist/weapp/components/divider/index"
-  },
-  "navigationBarTitleText": "景点介绍"
-}

@@ -1,6 +1,6 @@
 <block wx:if="{{$taroCompReady}}">
     <view class="user-menu">
-        <view wx:key="key" class="{{menu.$loopState__temp2}}" bindtap="gotoPage" wx:for="{{loopArray16}}" wx:for-item="menu" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{menu.$original}}">
+        <view wx:key="key" class="{{menu.$loopState__temp2}}" bindtap="gotoPage" wx:for="{{loopArray2}}" wx:for-item="menu" wx:for-index="index" data-e-tap-so="this" data-e-tap-a-a="{{menu.$original}}">
             <image class="user-menu__item-img" src="{{menu.$original.img}}"></image><text class="user-menu__item-txt">{{menu.$original.text}}</text>
         </view>
     </view>

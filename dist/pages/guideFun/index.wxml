@@ -1,4 +1,0 @@
-<block wx:if="{{$taroCompReady}}">
-    <view><text>正在开发娱乐项目页面，敬请期待！</text>
-    </view>
-</block>

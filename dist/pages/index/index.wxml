@@ -3,7 +3,7 @@
         
         <head></head>
         <view class="noticeContainer">
-            <at-noticebar compid="{{$compid__20}}">马鞍山洹河峡谷风景区现已开业！欢迎各位莅临游览!</at-noticebar>
+            <at-noticebar compid="{{$compid__0}}">马鞍山洹河峡谷风景区现已开业！欢迎各位莅临游览!</at-noticebar>
         </view>
         <guide></guide>
     </view>
