@@ -35,6 +35,8 @@ export default class GuideMap extends Taro.Component {
 
   render () {
     return (
+    
+    <View class='background'>
 
     <View>
 
@@ -186,7 +188,7 @@ export default class GuideMap extends Taro.Component {
                 </View>
 
            </View>
-
+      </View>
            
     )
     
