@@ -6,47 +6,47 @@ import './index.scss'
 const GUIDE_LIST = [{
     key: 'tickect',
     text: '门票',
-    url: '/pages/guideTickect/index',
+    url: '/pages/frontPageMenu/guideTickect/index',
     img: require('../../assets/gridIcon/ticket_2.png')
 }, {
     key: 'view',
     text: '景点介绍',
-    url: '/pages/guideView/index',
+    url: '/pages/frontPageMenu/guideView/index',
     img: require('../../assets/gridIcon/view.png')
 }, {
-    key: 'map',
+    key: 'fun',
     text: '游览指导',
-    url: '/pages/guideMap/index',
+    url: '/pages/frontPageMenu/guideMap/index',
     img: require('../../assets/gridIcon/map.png')
 }, {
-    key: 'fun',
-    text: '娱乐',
-    url: '/pages/guideFun/index',
+    key: 'video',
+    text: '风景视频',
+    url: '/pages/frontPageMenu/guideVideo/index',
     img: require('../../assets/gridIcon/fun.png')
 }, {
     key: 'bus',
     text: '交通',
-    url: '/pages/guideBus/index',
+    url: '/pages/frontPageMenu/guideBus/index',
     img: require('../../assets/gridIcon//bus.png')
 }, {
     key: 'hotel',
     text: '住宿',
-    url: '/pages/guideHotel/index',
+    url: '/pages/frontPageMenu/guideHotel/index',
     img: require('../../assets/gridIcon/hotel.png')
 }, {
     key: 'food',
     text: '美食',
-    url: '/pages/guideFood/index',
+    url: '/pages/frontPageMenu/guideFood/index',
     img: require('../../assets/gridIcon/food_1.png')
 }, {
     key: 'shopping',
     text: '购物',
-    url: '/pages/guideShopping/index',
+    url: '/pages/frontPageMenu/guideShopping/index',
     img: require('../../assets/gridIcon/shopping.png')
 }, {
     key: 'contact',
     text: '联系我们',
-    url: '/pages/guideContact/index',
+    url: '/pages/frontPageMenu/guideContact/index',
     img: require('../../assets/gridIcon/contactus.png')
 }]
 

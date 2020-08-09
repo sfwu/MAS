@@ -91,7 +91,7 @@ var AtTabsPane = (_temp2 = _class = function (_AtComponent) {
   }]);
 
   return AtTabsPane;
-}(_component2.default), _class.$$events = [], _class.$$componentPath = "Users/Wusongfeng/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/tabs-pane/index", _temp2);
+}(_component2.default), _class.$$events = [], _class.$$componentPath = "Users/songfengwu/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/tabs-pane/index", _temp2);
 
 
 AtTabsPane.defaultProps = {

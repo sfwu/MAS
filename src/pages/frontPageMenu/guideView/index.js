@@ -4,6 +4,12 @@ import { View, Image } from '@tarojs/components'
 import { Article, AtDivider, AtAccordion} from 'taro-ui'
 import './index.scss'
 
+// var backImgStyle = {
+//   width: "100%",
+//   height: "100%",
+//   backgroundImage: `url(${"https://i.loli.net/2020/02/24/WQaFfMVlnuPET1s.jpg"})`
+// };
+
 export default class GuideView extends Taro.Component {
     componentWillMount() {
         console.log(this.$router.params)
@@ -122,42 +128,49 @@ export default class GuideView extends Taro.Component {
 
       return (
 
-        <View className='page'>
-          <DocsHeader title='景点介绍'></DocsHeader>
-          <View className='doc-body'>
-              <View className='panel'>
-              <View className='panel__title'></View>
-                <View className='panel__content no-padding'>
-                  <View className='at-article'>
-                  <View className='at-article__h1'>洹河风景区景点介绍</View>
-                  <View className='at-article__info'>2019-9-12</View>
+        <View className='background'>
+            <View className='page'>
+
+              <DocsHeader title='景点介绍'></DocsHeader>
+
+              <View className='doc-body'>
+                  <View className='panel'>
+                  <View className='panel__title'></View>
+                        <View className='panel__content no-padding'>
+
+                          <View className='at-article'>
+                            <View className='at-article__h1'>洹河风景区景点介绍</View>
+                            <View className='at-article__info'>2019-9-12</View>
+                          </View>
+                      </View>
                 </View>
-              </View>
-          </View>
-          </View>
-          <View>
-          {description.map(item => (
-            <AtAccordion
-              key = {item.key} 
-              open={this.state["open" + String(item.key)]}
-              onClick={this.handleClick.bind(this,item.key,this.state["open" + String(item.key)])}
-              title={item.title}
-            >
-            <Image src={item.url} className='at-article__img' mode='widthFix'/>
-            <View className='at-article__p'>
-              {item.text}
-            </View>
-            </AtAccordion>
+                </View>
+              <View>
+
               
-          ))}
-          </View>
 
-            <AtDivider content='欢迎您前来游览！' fontColor='#E3CE33' lineColor='#B3E333' />
+              {description.map(item => (
+                <AtAccordion
+                  key = {item.key} 
+                  open={this.state["open" + String(item.key)]}
+                  onClick={this.handleClick.bind(this,item.key,this.state["open" + String(item.key)])}
+                  title={item.title}
+                >
+                <Image src={item.url} className='at-article__img' mode='widthFix'/>
+                <View className='at-article__p'>
+                  {item.text}
+                </View>
+                </AtAccordion>
+                  
+              ))}
+              </View>
+
+                <AtDivider content='欢迎您前来游览！' fontColor='#323ea8' lineColor='#a8326d' />
 
 
-        </View>
+            </View>
     
-
+        </View>
 
         
       )
