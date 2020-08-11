@@ -62,7 +62,7 @@ export default class GuideMap extends Taro.Component {
       </View>
 
                 
-                <AtDivider content='游览线路推荐' fontColor='#E71F98' lineColor='#E71F5F' />
+                <AtDivider content='游览线路推荐' fontColor='#E71F98' lineColor='#E71F5F' className='divider0'/>
                 
                 <AtTabs
                   current={this.state.current}
@@ -76,7 +76,7 @@ export default class GuideMap extends Taro.Component {
                     { title: '2日旅游线路' },
                   ]}
                   onClick={this.handleClick.bind(this)}>
-                  <AtTabsPane tabDirection='vertical' current={this.state.current} index={0}>
+                  <AtTabsPane tabDirection='vertical' current={this.state.current} index={0} className='tourTab'>
                     <View style='font-size:18px;text-align:center;height:200px;' className='timeline' >
                       <AtTimeline
                       items={[

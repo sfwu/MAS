@@ -6,11 +6,17 @@
 @import "~taro-ui/dist/style/components/accordion.scss";
 
 .background{
-    background-image: url("https://i.loli.net/2020/02/24/WQaFfMVlnuPET1s.jpg");
+    // background-image: url("https://i.loli.net/2020/02/24/WQaFfMVlnuPET1s.jpg");
+    // background-color: rgba(157, 241, 175, 0.2);
+    background-color: rgb(230, 248, 229);
     //position: fixed;
     //margin-top: 0;
     width: 100%;
     //height: 100%;
     background-size: cover;
     -moz-background-size:100% 100%;
+}
+
+.at-divider__content{
+    background-color: rgb(230, 248, 229);
 }

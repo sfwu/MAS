@@ -289,7 +289,7 @@ var AtTabs = (_temp2 = _class = function (_AtComponent) {
   }]);
 
   return AtTabs;
-}(_component2.default), _class.$$events = ["handleClick", "handleTouchStart", "handleTouchEnd", "handleTouchMove"], _class.$$componentPath = "Users/songfengwu/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/tabs/index", _temp2);
+}(_component2.default), _class.$$events = ["handleClick", "handleTouchStart", "handleTouchEnd", "handleTouchMove"], _class.$$componentPath = "Users/Wusongfeng/Desktop/MAS/node_modules/taro-ui/dist/weapp/components/tabs/index", _temp2);
 
 
 AtTabs.defaultProps = {
